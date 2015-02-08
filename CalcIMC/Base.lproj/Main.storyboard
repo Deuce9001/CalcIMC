@@ -88,6 +88,7 @@
             <point key="canvasLocation" x="2032" y="353"/>
         </scene>
         <!--Resultado IMC-->
+        <!--Body mass index-->
         <scene sceneID="y1t-2r-n4z">
             <objects>
                 <viewController id="Ge4-LF-rfC" customClass="detalleViewController" sceneMemberID="viewController">
@@ -115,6 +116,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgc-Wv-v5s">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgc-Wv-v5s">
                                         <rect key="frame" x="279" y="153" width="129" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -146,6 +148,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Resultado IMC" id="F1Q-04-P01"/>
+                    <navigationItem key="navigationItem" title="Body mass index" id="F1Q-04-P01"/>
                     <connections>
                         <outlet property="etiquetaCategoria" destination="Jgc-Wv-v5s" id="gIW-qT-sqM"/>
                         <outlet property="etiquetaIMC" destination="pAO-7n-UNJ" id="Aud-cO-HP8"/>
